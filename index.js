@@ -14,7 +14,6 @@ https://github.com/Nohara-Rin/Nohara-Rin-Bot-v1
     "qrcode-terminal": "^0.12.0"
   }
 }
-index.js
 const { default: makeWASocket, useSingleFileAuthState } = require("@adiwajshing/baileys");
 const qrcode = require("qrcode-terminal");
 const { Boom } = require("@hapi/boom");
